@@ -1,4 +1,5 @@
 body {
+	/* Editor */
 	--font-text-theme: MS-Consolas;
 	--color-alt-1: hsl(60, 100%, 50%);
 	--color-alt-2: hsl(54, 100%, 50%);
@@ -11,6 +12,13 @@ body {
 	--color-cm-list: hsl(210, 100%, 60%);
 	--color-cm-table: hsl(120, 50%, 60%);
 	--color-cm-checkbox: hsl(180, 100%, 50%);
+
+	/* GUI */
+	--icon-color: var(--color-accent);
+	--ribbon-background: var(--color-alt-1);
+	--icon-color-hover: var(--color-alt-1);
+	--icon-color-focused: var(--color-alt-1);
+	--background-modifier-hover: var(--color-accent);
 }
 
 /* Font for the markdown source panel */
