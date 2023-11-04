@@ -17,8 +17,40 @@ body {
 	--icon-color: var(--color-accent);
 	--ribbon-background: var(--color-alt-3);
 	--icon-color-hover: var(--color-alt-1);
-	--icon-color-focused: var(--color-alt-1);
+	--icon-color-focused: var(--color-alt-3);
 	--background-modifier-hover: var(--color-accent);
+	--nav-item-color-active: var(--color-alt-1);
+	--tab-text-color-focused-active-current: var(--color-alt-1);
+	--tab-text-color-focused-active: var(--color-alt-3);
+}
+
+.is-focused .workspace-leaf.mod-active .view-header-title {
+	color: var(--color-accent);
+}
+
+/* Calendar */
+
+#calendar-container {
+	--color-background-heading: transparent;
+	--color-background-day: transparent;
+	--color-background-weeknum: transparent;
+	--color-background-weekend: transparent;
+  
+	--color-dot: var(--text-muted);
+	--color-arrow: var(--text-muted);
+	--color-button: var(--text-muted);
+  
+	--color-text-title: var(--text-normal);
+	--color-text-heading: var(--text-muted);
+	--color-text-day: var(--text-normal);
+	--color-text-today: var(--color-alt-3);
+	--color-text-weeknum: var(--text-muted);
+
+	--interactive-hover: var(--color-accent);
+}
+
+#calendar-container div.today {
+	--color-background-day: var(--color-accent);
 }
 
 /* Font for the markdown source panel */
