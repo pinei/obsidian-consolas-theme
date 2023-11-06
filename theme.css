@@ -50,10 +50,6 @@ body {
 	--interactive-hover: var(--color-accent);
 }
 
-#calendar-container div.today {
-	--color-background-day: var(--color-accent);
-}
-
 /* Font for the markdown source panel */
 
 .cm-s-obsidian span.cm-inline-code, .cm-s-obsidian .HyperMD-codeblock, .cm-s-obsidian .HyperMD-table-row {
