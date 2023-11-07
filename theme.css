@@ -1,33 +1,52 @@
 body {
-	/* Editor */
-	--font-text-theme: MS-Consolas;
-	--font-monospace-theme: MS-Consolas;
+	/* Preferences */
+	--color-default: hsl(258, 88%, 66%); /* same as Obsidian --color-accent */
 	--color-alt-1: hsl(60, 100%, 50%);
 	--color-alt-2: hsl(54, 100%, 50%);
 	--color-alt-3: hsl(48, 100%, 50%);
 	--color-alt-4: hsl(42, 100%, 50%);
 	--color-alt-5: hsl(36, 100%, 50%);
 	--color-alt-6: hsl(30, 100%, 50%);
-	--list-marker-color: var(--color-accent);
-	--inline-title-color: var(--color-accent);
+	--color-ui-current: var(--color-alt-1);
+	--color-ui-active: var(--color-alt-3);
+	--background-ui-current: var(--color-default);
+
+	/* Editor */
+	--font-text-theme: MS-Consolas;
+	--font-monospace-theme: MS-Consolas;
+	--list-marker-color: var(--color-default);
+	--inline-title-color: var(--color-default);
 	--color-cm-list: hsl(210, 100%, 60%);
 	--color-cm-table: hsl(120, 50%, 60%);
 	--color-cm-checkbox: hsl(180, 100%, 50%);
+	--checkbox-border-color-hover: var(--color-ui-current);
+	--checkbox-marker-color: var(--color-ui-active);
 
 	/* GUI */
-	--icon-color: var(--color-accent);
-	--ribbon-background: var(--color-alt-3);
-	--icon-color-hover: var(--color-alt-1);
-	--icon-color-focused: var(--color-alt-3);
-	--background-modifier-hover: var(--color-accent);
-	--nav-item-color-active: var(--color-alt-1);
-	--tab-text-color-focused-active-current: var(--color-alt-1);
-	--tab-text-color-focused-active: var(--color-alt-3);
+	--icon-color: var(--color-default);
+	--ribbon-background: var(--color-ui-active);
+	--icon-color-hover: var(--color-ui-current);
+	--icon-color-focused: var(--color-ui-active);
+	--background-modifier-hover: var(--background-ui-current);
+	--nav-item-color-active: var(--color-ui-active);
+	--nav-item-color-hover: var(--color-ui-current);
+
+	--tab-text-color-focused-active-current: var(--color-ui-current);
+	--tab-text-color-focused-active: var(--color-ui-active);
 }
 
 .is-focused .workspace-leaf.mod-active .view-header-title {
-	color: var(--color-accent);
+	color: var(--color-default);
 }
+
+.workspace-tab-header.is-active .workspace-tab-header-inner {
+    border-top: 2px solid var(--background-ui-current);
+}
+
+.is-focused .workspace-tab-header:hover {
+	color: var(--color-ui-current);
+}
+
 
 /* Calendar */
 
@@ -44,10 +63,10 @@ body {
 	--color-text-title: var(--text-normal);
 	--color-text-heading: var(--text-muted);
 	--color-text-day: var(--text-normal);
-	--color-text-today: var(--color-alt-3);
+	--color-text-today: var(--color-ui-active);
 	--color-text-weeknum: var(--text-muted);
 
-	--interactive-hover: var(--color-accent);
+	--interactive-hover: var(--background-ui-current);
 }
 
 /* Font for the markdown source panel */
@@ -140,16 +159,16 @@ div.markdown-preview-view {
 }
 
 .markdown-rendered td {
-	border: 1px solid var(--color-accent);
+	border: 1px solid var(--color-default);
 }
 
 .markdown-rendered thead tr > th {
-	border: 1px solid var(--color-alt-1);
+	border: 1px solid var(--color-ui-active);
 }
 
 .markdown-rendered thead {
 	border-style: solid;
-	border-color: var(--color-alt-1);
+	border-color: var(--color-ui-active);
 	border-width: 3px 3px 0 3px; /* Top, Right, Bottom, Left */
 }
 
