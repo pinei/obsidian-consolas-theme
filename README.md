@@ -1,8 +1,19 @@
 # Obsidian Consolas Theme
 
-A theme for sober individuals.
+A dark theme for sober individuals.
 
-This theme uses the same default TrueType font as Visual Studio Code.
+![](./screenshot.png)
+
+This theme employs a TrueType font that evokes the look and feel of Visual Studio Code, adored by many developers and designers for its readability.
+
+Characteristics and features:
+- Popular monospaced font
+- Yellow and purple color scheme
+- Gradual header shading
+- Calendar compatibility
+- Checkboxes inspired by Minimal (by kepano)
+
+## Setup
 
 Clone to your obsidian vault using Git.
 
