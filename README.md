@@ -30,3 +30,4 @@ Set in "Config > Appearance > Themes¨
 - [Top Programming Fonts](https://github.com/hbin/top-programming-fonts/)
 - [Embed fonts and images](https://docs.obsidian.md/Themes/App+themes/Embed+fonts+and+images+in+your+theme)
 - [Encode TTF Font](https://products.aspose.app/font/base64/ttf)
+- [Minimal > Checklists](https://minimal.guide/checklists)
