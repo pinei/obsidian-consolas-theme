@@ -2,7 +2,7 @@
 
 A dark theme for sober individuals.
 
-![](./screenshot.png)
+![](./screenshot-original.png)
 
 This theme employs a TrueType font that evokes the look and feel of Visual Studio Code, adored by many developers and designers for its readability.
 
@@ -10,8 +10,11 @@ Characteristics and features:
 - Popular monospaced font
 - Yellow and purple color scheme
 - Gradual header shading
-- Calendar compatibility
-- Checkboxes inspired by Minimal (by kepano)
+- Minimal-inspired checkboxes (by kepano)
+- Compatibility with some plugins:
+	- Git
+	- Calendar
+	- Quiet Outline
 
 ## Setup
 
