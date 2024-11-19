@@ -8,6 +8,7 @@ This theme employs a TrueType font that evokes the look and feel of Visual Studi
 
 Characteristics and features:
 - Popular monospaced font
+- Ligatures
 - Yellow and purple color scheme
 - Gradual header shading
 - Minimal-inspired checkboxes (by kepano)
@@ -16,7 +17,7 @@ Characteristics and features:
 	- Calendar
 	- Quiet Outline
 
-## Setup
+## Manual Setup
 
 Clone to your obsidian vault using Git.
 
@@ -25,7 +26,7 @@ $ cd .obsidian/themes
 $ git clone https://github.com/pinei/obsidian-consolas-theme "Consolas"
 ```
 
-Set in "Config > Appearance > Themes¨
+Set in "Config > Appearance > Themes"
 
 ## References:
 
@@ -34,3 +35,4 @@ Set in "Config > Appearance > Themes¨
 - [Embed fonts and images](https://docs.obsidian.md/Themes/App+themes/Embed+fonts+and+images+in+your+theme)
 - [Encode TTF Font](https://products.aspose.app/font/base64/ttf)
 - [Minimal > Checklists](https://minimal.guide/checklists)
+- [Inconsolata](https://en.wikipedia.org/wiki/Inconsolata)
