@@ -12,10 +12,15 @@ Characteristics and features:
 - Yellow and purple color scheme
 - Gradual header shading
 - Minimal-inspired checkboxes (by kepano)
+	- Deprecated (you should try the `List Callout` plugin)
 - Compatibility with some plugins:
 	- Git
 	- Calendar
 	- Quiet Outline
+	- Kanban (new)
+
+![Kanban style](./kanban.png)
+
 
 ## Manual Setup
 
