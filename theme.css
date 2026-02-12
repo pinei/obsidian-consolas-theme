@@ -1,6 +1,17 @@
 /* Fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+@font-face {
+    font-family: 'Ligconsolata';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ligconsolata'), url('https://fonts.cdnfonts.com/s/107278/Ligconsolata-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Ligconsolata';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Ligconsolata'), url('https://fonts.cdnfonts.com/s/107278/Ligconsolata-Bold.woff') format('woff');
+}
 
 /* Body */
 
@@ -18,8 +29,8 @@ body {
 	--background-ui-current: var(--color-default);
 
 	/* Editor */
-	--font-text-theme: Inconsolata;
-	--font-monospace-theme: Inconsolata;
+	--font-text-theme: Ligconsolata;
+	--font-monospace-theme: Ligconsolata;
 	--font-weight: 450;
 	--font-stretch-theme: semi-expanded;
 	
