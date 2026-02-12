@@ -30,6 +30,7 @@ body {
 	--color-cm-checkbox: hsl(180, 100%, 50%);
 	--checkbox-border-color-hover: var(--color-ui-current);
 	--checkbox-marker-color: var(--color-ui-active);
+	--code-background: hsl(258, 20%, 23%);
 
 	/* GUI */
 	--icon-color: var(--color-default);
