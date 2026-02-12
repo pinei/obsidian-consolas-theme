@@ -1,5 +1,7 @@
 /* Fonts */
 
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
 @font-face {
     font-family: 'Ligconsolata';
     font-style: normal;
@@ -29,8 +31,10 @@ body {
 	--background-ui-current: var(--color-default);
 
 	/* Editor */
-	--font-text-theme: Ligconsolata;
-	--font-monospace-theme: Ligconsolata;
+	--font-text-theme: "Ligconsolata";
+	--font-monospace-theme: "Fira Code";
+	--font-text-size: 16px;
+	--font-monospace-size: 15px;
 	--font-weight: 450;
 	--font-stretch-theme: semi-expanded;
 	
@@ -99,7 +103,7 @@ body {
 
 .cm-s-obsidian span.cm-inline-code, .cm-s-obsidian .HyperMD-codeblock, .cm-s-obsidian .HyperMD-table-row {
 	font-variant-ligatures: discretionary-ligatures;
-	font-size: var(--font-text-size);
+	font-size: var(--font-monospace-size);
 }
 
 .markdown-source-view.mod-cm6 .cm-scroller {
