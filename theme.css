@@ -33,8 +33,7 @@ body {
 	/* Editor */
 	--font-text-theme: "Ligconsolata";
 	--font-monospace-theme: "Fira Code";
-	--font-text-size: 16px;
-	--font-monospace-size: 15px;
+	--font-monospace-size: calc(var(--font-text-size) - 1px);
 	--font-weight: 450;
 	--font-stretch-theme: semi-expanded;
 	
