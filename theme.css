@@ -36,7 +36,7 @@ body {
 	--font-monospace-size: calc(var(--font-text-size) - 1px);
 	--font-weight: 450;
 	--font-stretch-theme: semi-expanded;
-	
+
 	--list-marker-color: var(--color-default);
 	--inline-title-color: var(--color-default);
 	--color-cm-list: hsl(210, 100%, 60%);
@@ -57,7 +57,7 @@ body {
 
 	--tab-text-color-focused-active-current: var(--color-ui-current);
 	--tab-text-color-focused-active: var(--color-ui-active);
-	
+
 	--date-background-color: transparent;
 }
 
@@ -80,11 +80,11 @@ body {
 	--color-background-day: transparent;
 	--color-background-weeknum: transparent;
 	--color-background-weekend: transparent;
-  
+
 	--color-dot: var(--text-muted);
 	--color-arrow: var(--text-muted);
 	--color-button: var(--text-muted);
-  
+
 	--color-text-title: var(--text-normal);
 	--color-text-heading: var(--text-muted);
 	--color-text-day: var(--text-normal);
@@ -198,7 +198,7 @@ div.markdown-preview-view {
 }
 
 .cm-s-obsidian .HyperMD-table-row .cm-inline-code {
-	font-size: var(--font-text-size)  
+	font-size: var(--font-text-size)
 }
 
 .markdown-rendered th, .markdown-rendered td {
@@ -225,7 +225,14 @@ div.markdown-preview-view {
 	color: var(--color-cm-checkbox);
 }
 
+/* Syntax Highlighting */
+
+span.cm-atom.cm-hmd-codeblock {
+  color: #00b344;
+}
+
 /* Kanban */
+
 .kanban-plugin__meta-value, .kanban-plugin__markdown-preview-wrapper {
 	--line-height-normal: 1.5 /* same as --line-height-normal */
 }
@@ -286,7 +293,7 @@ div.kanban-plugin__lane-title-count {
 .kanban-plugin__item:has(.markdown-source-view) {
 	border-color: var(--color-default)
 }
-	
+
 .kanban-plugin__item-metadata .is-button:hover {
     color: var(--color-ui-active);
 }
@@ -617,4 +624,3 @@ body:not(.tasks) li[data-task='P'].task-list-item.is-checked,
 body:not(.tasks) li[data-task='D'].task-list-item.is-checked {
   color: var(--text-normal);
 }
-
